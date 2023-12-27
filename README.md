@@ -1,23 +1,25 @@
 
-
+# Ship Detection In Satellite Images 
 # Data Download
+
 To use this project, you'll need to download the Airbus Ship Detection Challenge dataset from the Kaggle competition. Follow the steps below to acquire the data:
 
-Visit the Kaggle Competition Page:
-Visit the Airbus Ship Detection Challenge on Kaggle to access the dataset.
+1. **Visit the Kaggle Competition Page:**
+   Visit the [Airbus Ship Detection Challenge](https://www.kaggle.com/competitions/airbus-ship-detection) on Kaggle to access the dataset.
 
-Download the Dataset:
-Click on the "Data" tab on the competition page and download the necessary datasets, including training images, masks, and test images.
+2. **Download the Dataset:**
+   Click on the "Data" tab on the competition page and download the necessary datasets, including training images, masks, and test images.
 
-Organize the Data:
-Extract the downloaded data and organize it according to the directory structure expected by the script. Ensure that the training dataset includes images and corresponding segmentation masks.
+3. **Organize the Data:**
+   Extract the downloaded data and organize it according to the directory structure expected by the script. Ensure that the training dataset includes images and corresponding segmentation masks.
 
-Configure Data Paths:
-In the script, adjust the ship_dir, train_image_dir, and test_image_dir variables to point to the locations where you have stored the downloaded data.
+4. **Configure Data Paths:**
+   In the script, adjust the `ship_dir`, `train_image_dir`, and `test_image_dir` variables to point to the locations where you have stored the downloaded data.
 
-Now you're ready to use the script for ship detection with the downloaded datase
+Now you're ready to use the script for ship detection with the downloaded dataset.
 
-# Ship Detection In Satellite Images 
+---
+
 
 ## Overview
 
